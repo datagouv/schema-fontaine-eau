@@ -81,13 +81,27 @@
          }
       },
       {
-         "name":"coordonnees_geo",
-         "title": "Coordonnées GPS",
-         "description":"Coordonnées GPS de la fontaine, au format `lon,lat`, avec le point comme séparateur décimal et une virgule entre les deux.",
-         "type":"geopoint",
-         "example":"2.303713,48.849598",
+         "name":"latitude",
+         "title": "Latitude (coordonnées GPS)",
+         "description":"Latitude de la fontaine.",
+         "type": "number",
+         "example":"48.849598",
          "constraints": {
-            "required":true
+            "required":true,
+            "minimum": "-90",
+            "maximum": "90"
+         }
+      },
+      {
+         "name":"longitude",
+         "title": "Longitude (coordonnées GPS)",
+         "description":"Latitude de la fontaine.",
+         "type": "number",
+         "example":"2.303713",
+         "constraints": {
+            "required":true,
+            "minimum": "-180",
+            "maximum": "180"
          }
       },
       {
