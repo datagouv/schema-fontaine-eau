@@ -163,6 +163,16 @@
          }
       },
       {
+         "name":"accessibl_pmr",
+         "title": "Accessibilité PMR",
+         "description":"Booléen renseignant sur la'accessibilité de la fontaine en période de restrictions. `true` si accessible, `false` sinon.",
+         "type":"boolean",
+         "example":true,
+         "constraints": {
+            "required":true
+         }
+      },
+      {
          "name":"gestionnaire",
          "title": "Gestionnaire",
          "description":"Nom du gestionnaire de la fontaine.",
