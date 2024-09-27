@@ -75,10 +75,7 @@
          "title": "Modèle",
          "description":"Le modèle de la fontaine.",
          "type":"string",
-         "example":"BF Bayard",
-         "constraints":{
-            "required":true
-         }
+         "example":"BF Bayard"
       },
       {
          "name":"latitude",
@@ -107,12 +104,9 @@
       {
          "name":"adresse",
          "title": "Voie et numéro de voie",
-         "description":"Adresse de l'objet contenant la voie et le numéro sur la voie.",
+         "description":"Adresse de l'objet contenant la voie et le numéro sur la voie, au format BAN.",
          "type":"string",
-         "example":"8 boulevard Victor Hugo",
-         "constraints": {
-            "required":true
-         }
+         "example":"8 boulevard Victor Hugo"
       },
       {
          "name":"code_commune_insee",
@@ -138,10 +132,7 @@
          "description":"Date d'installation de la fontaine, au format AAAA-MM-JJ (si seule l'année est connue, mettre le 1er janvier).",
          "type":"date",
          "format": "%Y-%m-%d",
-         "example":"2022-02-11",
-         "constraints": {
-            "required":true
-         }
+         "example":"2022-02-11"
       },
       {
          "name":"est_potable",
@@ -165,6 +156,16 @@
          "name":"ouverture_restriction",
          "title": "Ouverture si restriction",
          "description":"Booléen renseignant sur la fermeture ou non de la fontaine en période de restrictions. `true` si elle reste ouverte, `false` sinon.",
+         "type":"boolean",
+         "example":true,
+         "constraints": {
+            "required":true
+         }
+      },
+      {
+         "name":"accessibl_pmr",
+         "title": "Accessibilité PMR",
+         "description":"Booléen renseignant sur la'accessibilité de la fontaine en période de restrictions. `true` si accessible, `false` sinon.",
          "type":"boolean",
          "example":true,
          "constraints": {
