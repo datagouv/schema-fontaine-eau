@@ -143,9 +143,19 @@
          "example":"2023-05-12"
       },
       {
-         "name":"accessibl_pmr",
+         "name":"accessible_pmr",
          "title": "Accessibilité PMR",
-         "description":"Booléen renseignant sur la'accessibilité de la fontaine en période de restrictions. `true` si accessible, `false` sinon.",
+         "description":"Booléen renseignant sur l'accessibilité PMR de la fontaine. `true` si accessible, `false` sinon.",
+         "type":"boolean",
+         "example":true,
+         "constraints": {
+            "required":true
+         }
+      },
+      {
+         "name":"remplissage_contenant_possible",
+         "title": "Possibilité de remplir un contenant",
+         "description":"Booléen renseignant sur la possibilité de remplir un contenant (gourde, bouteille...). `true` si possible, `false` sinon.",
          "type":"boolean",
          "example":true,
          "constraints": {
