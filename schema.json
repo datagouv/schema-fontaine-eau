@@ -135,32 +135,12 @@
          "example":"2022-02-11"
       },
       {
-         "name":"est_potable",
-         "title": "Potabilité",
-         "description":"Booléen renseignant sur le caractère potable ou non de la fontaine.",
-         "type":"boolean",
-         "example":true,
-         "constraints": {
-            "required":true
-         }
-      },
-      {
          "name":"indisponible",
          "title": "Date début indisponibilité",
          "description":"Date de début d'indisponibilité de la fontaine si elle est indisponible. Si elle est en fonctionnement, à laisser vide.",
          "type":"date",
          "format": "%Y-%m-%d",
          "example":"2023-05-12"
-      },
-      {
-         "name":"ouverture_restriction",
-         "title": "Ouverture si restriction",
-         "description":"Booléen renseignant sur la fermeture ou non de la fontaine en période de restrictions. `true` si elle reste ouverte, `false` sinon.",
-         "type":"boolean",
-         "example":true,
-         "constraints": {
-            "required":true
-         }
       },
       {
          "name":"accessibl_pmr",
