@@ -1,4 +1,4 @@
-id,type_fontaine,modele,gestionnaire,latitude,longitude,adresse,code_commune_insee,precision_geo,conditions_acces,date_installation,indisponible,accessible_pmr,remplissage_contenant_possible
-450024946,borne fontaine,BF Bayard,Ville de Paris,48.84274722972126,2.3128939116029996,36 boulevard Pasteur,75056,dans le parc sur le terre-plein,établissement soumis à horaires,2023-10-03,,True,True
-GF92742,robinet,GHM Ville de Paris,Ville de Paris,48.83651057921518,2.306201856192339,1 place d'Alleray,75056,,autre,,2024-03-10,False,True
-T15373E,autre,GHM Ronde,Ville de Toulouse,43.60915876848268,1.467460575799352,,31555,,aucune,2012-06-11,,True,False
+id,type_fontaine,modele,gestionnaire,siren_gestionnaire,latitude,longitude,adresse,code_commune_insee,precision_geo,conditions_acces,date_installation,indisponible,accessible_pmr,remplissage_contenant_possible
+450024946,borne fontaine,BF Bayard,Ville de Paris,217500016,48.84274722972126,2.3128939116029996,36 boulevard Pasteur,75056,dans le parc sur le terre-plein,Ã©tablissement soumis Ã  horaires,2023-10-03,,True,True
+GF92742,robinet,GHM Ville de Paris,Ville de Paris,217500016,48.83651057921518,2.306201856192339,1 place d'Alleray,75056,,autre,,2024-03-10,False,True
+T15373E,autre,GHM Ronde,Ville de Toulouse,213105554,43.60915876848268,1.467460575799352,,31555,,aucune,2012-06-11,,True,False
